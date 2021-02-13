@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import 'weather-icons/css/weather-icons.css';
 import './Styles/App.scss';
 
 import Banner from './components/banner.js'
@@ -24,7 +25,9 @@ function App() {
   const classes = useStyles();
   return (
     <div className="_Container">
-    <div className="tiempo" >Cuadreado</div>
+    <div className="tiempo" >
+      <i className="wi wi-day-sunny display-1 wi-rotate-90"> </i>
+    </div>
     <div className="temperatura" >Cuadreado</div>
       <div className="_Banner">
         

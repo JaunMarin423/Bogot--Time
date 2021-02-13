@@ -12,11 +12,10 @@ export default class Banner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: []
+      data: [],
+      name: '',
     }
   }
-
-
   
 async componentDidMount() {
     try {
@@ -36,23 +35,8 @@ async componentDidMount() {
     }
 }
 
-  
-
-  // useEffect( () => {
-
-  //   async function loadData () {
-  //     const data = await getData()
-  //     console.log(data + 'hola')
-  //   }
-
-  // })
-
   render() {
-    // getData()
-    // const { data } = this.state
-  
-
-    return(
+    return (
     <div>
         <div>
         <h1>Hello, {this.state.data.name} +</h1>
@@ -61,7 +45,3 @@ async componentDidMount() {
     )
   }
 }
-
-
-  
-
