@@ -1,6 +1,6 @@
  import ky from 'ky';
-
- const fetchData = async () => {
+ 
+ async function fetchData(URL) {
       try {
         const data = await ky.get(
           URL, {

@@ -59,7 +59,26 @@
   margin-right: 3em;
   margin-left: 3em;
   height: 18em;
+  border-radius: 30px;
+  background-image: url("../img/banner.png");
 }
+
+._containerIcon {
+  width: 3%;
+  height: 110px;
+  padding-left: 50px;
+  padding-top: 65px;
+    ._icon{
+      color: #686bd4;
+    }
+    ._name{
+      margin-top: -1.6em;
+      padding-left: 2em;
+      color: #686bd4;
+    }
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -230,7 +249,7 @@
   ._SeccionesU {
       margin-top: 1em; 
       height: 26em;
-      margin-right: 91em;
+      margin-right: 60em;
       margin-left: 3em;
       border: 3px solid #555;
       background: #428bca;
@@ -241,8 +260,8 @@
   ._SeccionesD {
     margin-top: -26.3em; 
     height: 26em;
-    margin-right: 64em;
-    margin-left: 30em;
+    margin-right: 40em;
+    margin-left: 20em;
     border: 3px solid #555;
     background: #428bca;
   }
@@ -250,8 +269,8 @@
   ._SeccionesT {
     margin-top: -26.3em; 
     height: 26em;
-    margin-right: 37em;
-    margin-left: 57.1em;
+    margin-right: 22em;
+    margin-left: 40.1em;
     border: 3px solid #555;
     background: #428bca;
   }
@@ -261,7 +280,7 @@
     margin-top: -35.4em; 
     height: 35em;
     margin-right: 3em;
-    margin-left: 85em;
+    margin-left: 57em;
     border: 3px solid #555;
     background: #428bca;
   }
