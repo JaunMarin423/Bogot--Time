@@ -4,6 +4,9 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import 'weather-icons/css/weather-icons.css';
 import Banner from './components/bannerF'
+import Temp from './components/timeBog'
+import Icono from './components/icon'
+import SeccionD from './components/seccionD'
 import './Styles/App.scss';
 
 
@@ -26,14 +29,14 @@ function App() {
   return (
     <div className="_Container">
     <div className="tiempo" >
-      <i className="wi wi-day-sunny display-1 wi-rotate-90"> </i>
+      <Icono/>
     </div>
-    <div className="temperatura" >Cuadreado</div>
+    <div className="temperatura" >
+      <Temp/>
+    </div>
       <div className="_Banner">
-        
         <Banner/>
       </div>
-
       <div className="_SeccionesU">
 
       <h3 className="_texttos"><a className="_negrilla">3 Days</a> Forecast</h3>
@@ -42,6 +45,8 @@ function App() {
       <div className="_SeccionesD">
         <h3 className="_texttos"><a className="_negrilla">Place to</a> Visit</h3>
 
+        <SeccionD/> 
+        
       </div>
       <div className="_SeccionesT">
         <p>Top Raviuws</p>

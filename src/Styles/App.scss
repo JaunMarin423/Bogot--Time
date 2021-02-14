@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,15 +31,25 @@
 .tiempo {
   width: 80px;
   height: 80px;
-
-  color: red;
+  color: #fff;
   position: absolute;
-  top: 90px;
+  top: 135px;
   left: 0px;
   border-radius: 0px 20px 20px 0px;
   z-index: 40;
   background-color: #2f3485;
-  }
+}
+
+
+._temp {
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+}
+
+._iconTemp {
+    padding-left: 1.5em;
+    padding-top: 1.3em;
+}
 
 .temperatura {
   width: 80px;
@@ -45,7 +57,7 @@
 
   color: white;
   position: absolute;
-  top: 140px;
+  top: 184px;
   left: 0px;
   border-radius: 0px 20px 20px 0px;
   z-index: 30;
@@ -55,12 +67,25 @@
 
 ._Banner {
   background-color: #9ec6ce;
+  background-image: url("../img/banner.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 3em;
   margin-right: 3em;
   margin-left: 3em;
   height: 18em;
   border-radius: 30px;
-  background-image: url("../img/banner.png");
+  width: 100%;
+  
+}
+
+._seccionD{
+  background-color: white;
+  background-image: url("../img/yards4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  height: 60%; 
 }
 
 ._containerIcon {
@@ -87,8 +112,8 @@
       height: 10em;
       margin-right: 3em;
       margin-left: 3em;
-      border: 3px solid #555;
-      background: #428bca;
+     
+    
   }
 
   ._SeccionesD {
@@ -96,8 +121,8 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
+   
+    
   }
 
   ._SeccionesT {
@@ -105,8 +130,6 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 
@@ -115,8 +138,6 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 }
@@ -128,8 +149,6 @@
       height: 10em;
       margin-right: 3em;
       margin-left: 3em;
-      border: 3px solid #555;
-      background: #428bca;
   }
 
   ._SeccionesD {
@@ -137,8 +156,6 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
   ._SeccionesT {
@@ -146,8 +163,6 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 
@@ -156,8 +171,6 @@
     height: 10em;
     margin-right: 3em;
     margin-left: 3em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 }
@@ -170,8 +183,6 @@
       height: 26em;
       margin-right: 90em;
       margin-left: 3em;
-      border: 3px solid #555;
-      background: #428bca;
   }
 
   ._SeccionesD {
@@ -179,8 +190,6 @@
     height: 26em;
     margin-right: 62em;
     margin-left: 32em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
   ._SeccionesT {
@@ -188,8 +197,6 @@
     height: 26em;
     margin-right: 32em;
     margin-left: 60.1em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 
@@ -198,8 +205,6 @@
     height: 37em;
     margin-right: 3em;
     margin-left: 90em;
-    border: 3px solid #555;
-    background: #428bca;
   }
 
 }
@@ -211,8 +216,6 @@
       margin-right: 58em;
       margin-left: 3em;
       border: 3px solid #555;
-      background: #428bca;
-      background-color: #2f3485;
 
   }
 
@@ -221,8 +224,19 @@
     height: 26em;
     margin-right: 40em;
     margin-left: 21em;
-    border: 3px solid #555;
-    background: #428bca;
+    
+  }
+
+  ._contenedorSecD{
+    width: 3%;
+    height: 99px;
+    padding-left: 37px;
+    padding-top: 16px;
+    color: white;
+  }
+
+  ._streetIcon{
+    width: 290%;
   }
 
   ._SeccionesT {
@@ -231,7 +245,6 @@
     margin-right: 22em;
     margin-left: 39.1em;
     border: 3px solid #555;
-    background: #428bca;
   }
 
 
@@ -241,7 +254,6 @@
     margin-right: 3em;
     margin-left: 58em;
     border: 3px solid #555;
-    background: #428bca;
   }
 }
 
@@ -251,9 +263,7 @@
       height: 26em;
       margin-right: 60em;
       margin-left: 3em;
-      border: 3px solid #555;
-      background: #428bca;
-      background-color: #2f3485;
+
 
   }
 
@@ -262,8 +272,7 @@
     height: 26em;
     margin-right: 40em;
     margin-left: 20em;
-    border: 3px solid #555;
-    background: #428bca;
+
   }
 
   ._SeccionesT {
@@ -271,8 +280,7 @@
     height: 26em;
     margin-right: 22em;
     margin-left: 40.1em;
-    border: 3px solid #555;
-    background: #428bca;
+
   }
 
 
@@ -281,8 +289,43 @@
     height: 35em;
     margin-right: 3em;
     margin-left: 57em;
-    border: 3px solid #555;
-    background: #428bca;
+
+  }
+}
+
+@media only screen and (min-width: 1880px) {
+  ._SeccionesU {
+      margin-top: 1em; 
+      height: 26em;
+      margin-right: 91em;
+      margin-left: 3em;
+
+
+  }
+
+  ._SeccionesD {
+    margin-top: -26.3em; 
+    height: 26em;
+    margin-right: 64em;
+    margin-left: 31em;
+
+  }
+
+  ._SeccionesT {
+    margin-top: -26.3em; 
+    height: 26em;
+    margin-right: 37em;
+    margin-left: 57.1em;
+
+  }
+
+
+  ._SeccionesC {
+    margin-top: -35.4em; 
+    height: 35em;
+    margin-right: 3em;
+    margin-left: 85em;
+
   }
 }
 

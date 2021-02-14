@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import getData from '../utils/getData';
-import iconUbic from '../img/marcador-de-posicion.svg'
+import 'weather-icons/css/weather-icons.css';
 
 export const Banner = ()=> {
   
@@ -8,7 +8,12 @@ export const Banner = ()=> {
     name: '',
     weather:[],
     main: {},
+    icon: '',
   })
+
+  data.icon = {
+     Thunderstorm : "wi-thinderstorm"
+  }
 
   useEffect(  ()=> {
 
@@ -19,6 +24,7 @@ export const Banner = ()=> {
           name: bannerData.name,
           weather: bannerData.weather,
           main: bannerData.main,
+          // icon:
         })
       }
     }
@@ -30,12 +36,8 @@ export const Banner = ()=> {
   // render
 
   return (
-  <div className="box">
-      <div className="_containerIcon">
-        <img className="_icon" src={ iconUbic }></img>
-    
-        <h1 className="_name" >{data ? data.name : ''}</h1>
-      </div>
+    <div className="_iconTemp">
+      <i className={`wi wi-day-hail display-1`}/>
     </div>
   )
 }
