@@ -7,6 +7,11 @@ import Banner from './components/bannerF'
 import Temp from './components/timeBog'
 import Icono from './components/icon'
 import SeccionD from './components/seccionD'
+import SeccionTA from './components/seccionTA'
+import SeccionTD from './components/seccionTD'
+
+
+
 import './Styles/App.scss';
 
 
@@ -50,7 +55,8 @@ function App() {
       </div>
       <div className="_SeccionesT">
         <p>Top Raviuws</p>
-
+        <SeccionTA/>
+        <SeccionTD/>
       </div>
       <div className="_SeccionesC">
 
