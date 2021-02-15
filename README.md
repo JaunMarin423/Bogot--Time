@@ -1,3 +1,6 @@
+vista previa en 1200px
+![alt text](http://Captura1-1200px.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

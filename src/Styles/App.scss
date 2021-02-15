@@ -40,6 +40,61 @@
   background-color: #2f3485;
 }
 
+._Fran{
+  margin-top: 16px;
+  width: 248px;
+  height: 8em;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 5px 10px 15px #888888;
+}
+
+._cuadrado{
+  width: 70px; 
+  height: 70px; 
+  background: #dee8f1;
+  border-radius: 25px;
+}
+
+._franGra{
+  margin-top: -2.6em;
+  padding-left: 5em;
+  font-size: 20px;
+}
+
+._letra{
+  font-weight: 600
+}
+
+.Space{
+  margin-top: 10px;
+}
+
+._pais{
+  margin-top: -1.6em;
+  padding-left: 10em;
+  font-size: 14px;
+}
+
+._frio{
+    margin-top: 1.4em;
+    padding-left: 1.5em;
+    color: #686bd4;
+}
+
+._contry{
+  margin-top: -0.6em;
+  padding-left: 10em;
+  font-size: 17px;
+}
+
+._centy{
+  margin-top: -2.3em;
+  padding-left: 2.5em;
+  font-size: 10px;
+  color: #8470ed;
+}
+
 
 ._temp {
     padding-left: 0.5em;
@@ -76,7 +131,6 @@
   height: 18em;
   border-radius: 30px;
   width: 100%;
-  
 }
 
 ._seccionD{
@@ -244,13 +298,25 @@
 
 }
 
-@media only screen and (min-width: 1200px) {  
+@media only screen and (min-width: 1200px) {
+
+  ._Banner {
+  background-color: #9ec6ce;
+  background-image: url("../img/banner.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 3em;
+  margin-right: 3em;
+  margin-left: 3em;
+  height: 18em;
+  border-radius: 30px;
+  width: 90%;
+}
   ._SeccionesU {
       margin-top: 1em; 
       height: 26em;
       margin-right: 58em;
       margin-left: 3em;
-      border: 3px solid #555;
 
   }
 
@@ -270,6 +336,26 @@
     color: white;
   }
 
+    ._contenteinersV{
+      margin-top: 2em;
+      background-color: white;
+      border: 2px solid #555;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border-radius: 35px;
+      height: 25%; 
+  }
+
+  ._subbtn{
+    width: 7.5em;
+    height: 105px;
+    background: #8470ed;
+    margin-left: 7em;
+    margin-top: 0px;
+    border-radius: 25px;
+  }
+  
+
   ._streetIcon{
     width: 290%;
   }
@@ -283,8 +369,8 @@
   ._SeccionesT {
     margin-top: -26.3em; 
     height: 26em;
-    margin-right: 22em;
-    margin-left: 39.1em;
+    margin-right: 24em;
+    margin-left: 37.1em;
   }
 
 
@@ -292,8 +378,26 @@
     margin-top: -35.4em; 
     height: 34em;
     margin-right: 3em;
-    margin-left: 58em;
-    border: 3px solid #555;
+    margin-left: 53em;
+    
+  }
+
+  ._addLocarion{
+    background-color: #ffffff;
+    border-style: dotted;
+    border-radius: 25px;
+    margin-top: 15px;
+    width: 15em; 
+    height: 8em; 
+    box-shadow: 5px 10px 15px #888888;
+  }
+  .btn{
+    text-align: center;
+    background-color: #f0eefb;
+    margin-top: 42px;
+    width: 15em;
+    height: 2em;
+    border-radius: 30px;
   }
 }
 
@@ -387,7 +491,7 @@
 .div {
   width: 100px; 
   height: 100px; 
-  background: #428bca;
+  background: #ffffff;
 }
 
 

@@ -9,6 +9,15 @@ export const Banner = ()=> {
     weather:[],
     main: {},
     icon: '',
+    weatherIcon: {
+      Thunderstorm: "wi-thunderstorm",
+      Drizzle: "wi-sleet",
+      Rain: "wi-storm-showers",
+      Snow: "wi-snow",
+      Atmosphere: "wi-fog",
+      Clear: "wi-day-sunny",
+      Clouds: "wi-day-fog"
+    }
   })
 
   data.icon = {
@@ -24,7 +33,7 @@ export const Banner = ()=> {
           name: bannerData.name,
           weather: bannerData.weather,
           main: bannerData.main,
-          // icon:
+          icon: bannerData.weather.main,
         })
       }
     }
@@ -37,7 +46,7 @@ export const Banner = ()=> {
 
   return (
     <div className="_iconTemp">
-      <i className={`wi wi-day-hail display-1`}/>
+      <i className="wi wi-night-sleet display-1"/>
     </div>
   )
 }

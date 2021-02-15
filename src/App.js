@@ -9,6 +9,8 @@ import Icono from './components/icon'
 import SeccionD from './components/seccionD'
 import SeccionTA from './components/seccionTA'
 import SeccionTD from './components/seccionTD'
+import Fran from './components/Paris'
+import Lyon from './components/Lyon'
 
 
 
@@ -44,7 +46,24 @@ function App() {
       </div>
       <div className="_SeccionesU">
 
-      <h3 className="_texttos"><a className="_negrilla">3 Days</a> Forecast</h3>
+        <h4 className="_texttos"><a className="_negrilla">3 Days</a> Forecast</h4>
+
+        <div className="_contenteinersV">
+          <div className="_subbtn">
+          </div>
+        </div>
+
+        
+        <div className="_contenteinersV">
+          <div className="_subbtn">
+          </div>
+        </div>
+
+        
+        <div className="_contenteinersV">
+          <div className="_subbtn">
+          </div>
+        </div>
 
       </div>
       <div className="_SeccionesD">
@@ -59,7 +78,13 @@ function App() {
         <SeccionTD/>
       </div>
       <div className="_SeccionesC">
-
+        <Lyon className="Space"/>
+        <Fran className="Space"/>
+        <div className="_addLocarion">
+        <div className="btn">
+        <p>Add Location</p>
+        </div>
+        </div>
       </div>
     </div>
 
