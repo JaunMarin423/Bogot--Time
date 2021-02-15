@@ -1,5 +1,7 @@
+
+![Design preview for the app](./design/captura1-1200px.jpg)
 vista previa en 1200px
-![alt text](./captura1-1200px.PNG)
+
 
 # Getting Started with Create React App
 
