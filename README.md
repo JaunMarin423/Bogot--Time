@@ -1,5 +1,5 @@
 vista previa en 1200px
-![alt text](http://Captura1-1200px.PNG)
+![alt text](./captura1-1200px.PNG)
 
 # Getting Started with Create React App
 
