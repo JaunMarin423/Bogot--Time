@@ -38,7 +38,7 @@ export const Temp = ()=> {
 
   return (
     <div>
-      <h1 className="_temp" >{data ? data.celsius : ''}°C</h1>
+      <h1 className="_temp" >{data ? data.celsius : ''} <sup className="subTemp"> °C  </sup></h1>
     </div>
   )
 }
